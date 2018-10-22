@@ -3,7 +3,7 @@ public class Umrechner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Conversion from Euro to Dollar
+		//
 		
      do {
     	 Scanner input = new Scanner(System.in);
@@ -27,18 +27,21 @@ public class Umrechner {
     		 case 2:
     			 System.out.println(money +"Dollar ist" +money*0.87 +"Euro");   
     			 break;
+    			 
     		 }
     	 }
     	 Scanner finish = new Scanner(System.in);
-    	 System.out.println("Wollen Sie das Programm beenden?Y-Ja/N-Nein");
+    	 System.out.println("Wollen Sie das Programm beenden?J-Ja/N-Nein");
     	 char finalrun;
     	 finalrun = finish.next().charAt(0);
-    	 if (finalrun == 'Y') {
+    	 if (finalrun == 'J') {
     		 break;
+    		 
     	 }
     	 
     	 
      }while(true);
+    System.out.println("Bis zum nächsten Mal!");
 	}
-	}
-
+	
+}
